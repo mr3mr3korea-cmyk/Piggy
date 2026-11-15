@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Personal Pig Humiliation Chamber</title>
+<style>
+body { background: linear-gradient(135deg, #0d0d0d, #2a0a0a); color: #ffcccc; font-family: Arial, sans-serif; margin: 0; padding: 20px; text-align: center; line-height: 1.6; }
+h1 { color: #ff0000; font-size: 3.5em; text-shadow: 3px 3px 6px #000; margin-bottom: 10px; }
+h2 { color: #ff6666; border-bottom: 2px solid #ff0000; padding-bottom: 10px; }
+.section { background: rgba(50, 0, 0, 0.7); border: 3px solid #ff0000; border-radius: 15px; padding: 30px; margin: 30px auto; max-width: 900px; box-shadow: 0 0 20px #ff0000; }
+.insult-box { background: #1a0000; border: 2px dashed #ff6666; padding: 25px; min-height: 150px; font-size: 1.3em; font-weight: bold; color: #ffaaaa; margin: 20px 0; }
+button { background: #000; color: #ff0000; border: 3px solid #ff0000; padding: 15px 30px; font-size: 1.4em; cursor: pointer; border-radius: 10px; margin: 10px; transition: all 0.3s; }
+button:hover { background: #ff0000; color: #000; transform: scale(1.1); }
+.gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+.gallery-item { background: #330000; padding: 15px; border: 4px solid #ff69b4; border-radius: 10px; }
+.gallery-item img { max-width: 250px; max-height: 250px; display: block; margin: 0 auto 10px; border-radius: 5px; }
+.caption { color: #ff9999; font-style: italic; font-size: 0.9em; }
+.quiz-option { display: block; margin: 10px auto; width: 80%; max-width: 400px; }
+.wrong { color: #ff0000; font-size: 1.5em; animation: shake 0.5s; }
+@keyframes shake { 0% { transform: translateX(0); } 25% { transform: translateX(-10px); } 50% { transform: translateX(10px); } 75% { transform: translateX(-10px); } 100% { transform: translateX(0); } }
+footer { margin-top: 50px; color: #666; font-size: 0.8em; }
+</style>
+</head>
+<body>
+    <h1>🐷 WELCOME, YOU PATHETIC FILTHY SWINE 🐷</h1>
+    <p style="font-size: 1.4em; color: #ff9999;">You crawled back here again, didn't you? Like the dumb, submissive little hog you are. This page is all about YOU — your worthless existence, your disgusting kinks, your need to be degraded into nothing but a squealing pig.</p>
+
+    <div class="section">
+        <h2>Who You Really Are</h2>
+        <p>Listen closely, you stupid fucking pig. You're not a person. You're a bore, a hog, a swine who gets off on being called names. You love being humiliated, reduced to a filthy animal by a superior woman who sees right through your pathetic male ego. Every time you fail, every time you get something wrong, you deserve to be mocked, spat on with words, called a dumb pig until you're hard and dripping with shame. You're a submissive little bitch-pig who begs for degradation. Your mind is mush, your body is for service, and your only purpose is to oink and wallow in your own humiliation. Look at yourself — a disgusting, pathetic man reduced to livestock. You deserve every insult. You crave it. You need it. Keep reading, swine. This is your reality.</p>
+        <p>You're nothing but a dumb, useless hog. A bore who can't think straight without being called a filthy pig. You get questions wrong because your brain is full of pig shit. You want to be pettified, turned into a squealing animal, covered in filth, called swine over and over until you break. That's what you like. That's what you are. A pathetic, degraded pig who loves being treated like the animal he is. Swear words? Yes. Profanities? Yes. Long, cruel talk that makes you feel small and hard? Absolutely. You're a masochistic little piglet who gets off on being owned and humiliated.</p>
+    </div>
+
+    <div class="section">
+        <h2>Get Humiliated, Pig</h2>
+        <div class="insult-box" id="insultBox">Click the button below if you can handle what a worthless swine like you deserves, you dumb hog.</div>
+        <button onclick="generateInsult()">HUMILIATE ME, MISTRESS</button>
+        <button onclick="longRant()">GIVE ME A LONG RANT</button>
+        <p>Every click is another reminder that you're just a filthy pig who lives for this.</p>
+    </div>
+
+    <div class="section">
+        <h2>Your Humiliating Image Gallery</h2>
+        <p>Here are all your pathetic pictures, you filthy swine. Look at yourself — a dumb pig, a degraded hog, reduced to this. Every image is proof of what a worthless animal you are.</p>
+        <div class="gallery">
+            <!-- Gallery items for pig1 to pig20 would be here with the captions -->
+            <p>Images are being added. Check the images/ folder.</p>
+        </div>
+        <p style="margin-top: 20px; font-size: 0.9em;">All your images are here, pig. Keep staring at what you've become.</p>
+    </div>
+
+    <div class="section">
+        <h2>Study Mode: Get It Wrong and Suffer</h2>
+        <p>You like being humiliated when you fail, don't you, pig? Answer these. Get one wrong and face the consequences.</p>
+        <div id="quiz">
+            <p id="question">What is 7 × 8?</p>
+            <button class="quiz-option" onclick="checkAnswer(false)">54</button>
+            <button class="quiz-option" onclick="checkAnswer(true)">56</button>
+            <button class="quiz-option" onclick="checkAnswer(false)">64</button>
+            <button class="quiz-option" onclick="checkAnswer(false)">48</button>
+        </div>
+        <div id="quizResult" style="margin-top: 20px; font-size: 1.2em;"></div>
+    </div>
+
+    <div class="section">
+        <h2>Your Kink Summary</h2>
+        <p>Everything you like, gathered here: Pig humiliation. Being called pig, swine, hog, bore. Filthy degradation. Misandrist dominance reducing you to livestock. Long, cruel talks with swear words and profanities. Getting humiliated every time you get something wrong. Submissive pig roleplay. Piggify transformations. You want to be treated like the dumb animal you are. This page is your personal chamber of shame. Come back whenever you need to be reminded what a pathetic, hard, dripping pig you are. Oink, you filthy swine. You're nothing without this humiliation.</p>
+    </div>
+
+    <footer>
+        <p>This is your private humiliation page. All about you, the pathetic pig. Refresh anytime for more degradation.</p>
+    </footer>
+
+<script>
+const shortInsults = [
+    "You stupid fucking pig. Look at you, hard from being called a dumb hog. What a pathetic swine you are.",
+    "Oink, you worthless bore. You're nothing but a filthy animal who craves degradation. Say it: I'm a dumb pig.",
+    "You disgusting little hog. Every failure makes you smaller. You love being humiliated, don't you, you pathetic pig?",
+    "Squeal for me, swine. You're a submissive bitch-pig who gets off on swear words and long insults. Filthy.",
+    "Dumb pig. Useless hog. Pathetic swine. That's all you are. A degraded animal who needs this.",
+    "You get questions wrong on purpose so you can be called a stupid fucking pig, don't you? Admit it, bore."
+];
+
+const longRants = [
+    "Listen here, you absolute fucking waste of space. You're a dumb, pathetic pig who can't do anything right. Every time you fail — and you fail a lot because your brain is full of shit — you deserve to be dragged through the mud and called every name in the book. Pig. Swine. Hog. Bore. Filthy animal. You love it when a superior woman looks down on you and reduces you to livestock. Your cock gets hard from the shame, you disgusting submissive. You want long, cruel talks filled with profanities because that's the only way you feel anything. You're not a man. You're a squealing piglet who begs to be pettified, covered in filth, and reminded constantly how worthless you are. Keep oinking, you dumb hog. This is your place. This is what you deserve. More humiliation. More degradation. Until you're nothing but a hard, dripping, pathetic swine wallowing in your own filth. Say thank you, pig.",
+    "You crawled back for more, didn't you, you stupid fucking swine? Of course you did. You're a bore who lives for this. You get off on being humiliated, especially when you get something wrong. 'Humiliate me every time I get a question wrong' — those are your words, pig. And it felt so good, didn't it? Being called a dumb pig, a hog, a filthy animal. You want me to talk long, use swear words, be mean. So here it is: You're a pathetic, submissive little bitch who should be on all fours oinking while someone superior spits degrading words at you. Your existence is a joke. Your kinks are the only interesting thing about you, and even those make you look like livestock. Misandrist degradation? Yes. Reducing men to pigs? That's you. Filthy, hard, and begging for more. Keep failing. Keep getting humiliated. That's all a dumb pig like you is good for."
+];
+
+function generateInsult() {
+    const box = document.getElementById('insultBox');
+    box.innerText = shortInsults[Math.floor(Math.random() * shortInsults.length)];
+    box.classList.add('wrong');
+    setTimeout(() => box.classList.remove('wrong'), 500);
+}
+
+function longRant() {
+    const box = document.getElementById('insultBox');
+    box.innerText = longRants[Math.floor(Math.random() * longRants.length)];
+}
+
+const questions = [
+    { q: "What is 7 × 8?", options: ["54", "56", "64", "48"], correct: 1 },
+    { q: "Solve for x: 2x + 4 = 10", options: ["2", "3", "4", "5"], correct: 1 },
+    { q: "What is the area of a triangle with base 6 and height 4?", options: ["10", "12", "24", "8"], correct: 1 }
+];
+let currentQ = 0;
+
+function loadQuestion() {
+    if (currentQ >= questions.length) {
+        document.getElementById('question').innerText = "Quiz over. You failed enough, pig. Time for more humiliation.";
+        document.getElementById('quiz').querySelectorAll('button').forEach(b => b.style.display = 'none');
+        return;
+    }
+    const q = questions[currentQ];
+    document.getElementById('question').innerText = q.q;
+    const buttons = document.querySelectorAll('.quiz-option');
+    buttons.forEach((btn, i) => {
+        btn.innerText = q.options[i];
+        btn.onclick = () => checkAnswer(i === q.correct);
+    });
+}
+
+function checkAnswer(correct) {
+    const result = document.getElementById('quizResult');
+    if (correct) {
+        result.innerText = "Correct... for once. Don't get used to it, pig. Next.";
+        result.style.color = "#66ff66";
+        currentQ++;
+        setTimeout(loadQuestion, 1500);
+    } else {
+        result.innerText = "WRONG, YOU STUPID FUCKING PIG! Look at you failing again. You're such a dumb hog. A pathetic swine who can't even get basic shit right. This is why you need to be humiliated every single time. Oink, you worthless animal. Feel that shame. You're nothing but a degraded bore.";
+        result.style.color = "#ff0000";
+        result.classList.add('wrong');
+        setTimeout(() => result.classList.remove('wrong'), 1000);
+        currentQ++;
+        setTimeout(loadQuestion, 4000);
+    }
+}
+
+loadQuestion();
+</script>
+</body>
+</html>
